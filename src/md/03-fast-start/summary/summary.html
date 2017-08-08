@@ -1,0 +1,220 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>summary</title>
+<script type="text/javascript">
+function showhide(id)
+{
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+}
+</script>
+<style>
+rect {
+transition: .6s fill;
+fill: #D3D3D3;
+opacity: 0;
+}
+rect:hover {
+    fill: #D3D3D3;
+    opacity: 0.2;
+}
+
+.outline {
+    clear: both;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 1982px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.svg-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container"><div class="spacer">&nbsp;</div><div class="svg-container"><svg version="1.1"  preserveAspectRatio="xMinYMin meet" class="svg-content" viewBox="0 0 1982 2742" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="1982" height="2742" xlink:href="summary-assets/summary.png"></image>
+</svg>
+</div>
+</div>
+
+<br/>
+<a href="javascript:showhide('outlineDiv')">Outline show/hide</a>
+<div id="outlineDiv" style="display:none;">
+<h1>Быстрый старт</h1>
+<h2>страница</h2>
+<h3>взаимодействие</h3>
+<ul>
+<li>JS может менять</li>
+</ul>
+<h3>отображение</h3>
+<ul>
+<li>CSS -&gt; CSSOM
+<ul>
+<li>представление CSS-кода</li>
+<li>может не совпадать с DOM</li>
+</ul>
+</li>
+<li>HTML -&gt; DOM
+<ul>
+<li>представление HTML-кода</li>
+<li>хранит структуру, начиная с документа, включает doctype, html и т.д.</li>
+</ul>
+</li>
+<li>Модель визуализации</li>
+<li>Макет</li>
+<li>Отрисовка</li>
+</ul>
+<h3>объектные модели</h3>
+<ul>
+<li>Байты</li>
+<li>Разметка
+<ul>
+<li>открывающий тег</li>
+<li>текст</li>
+<li>закрывающий тег</li>
+</ul>
+</li>
+<li>Узлы
+<ul>
+<li>doctype</li>
+<li>html-элементы</li>
+<li>атрибуты тегов</li>
+<li>комментарии</li>
+<li>текст</li>
+</ul>
+</li>
+</ul>
+<h3>кодировка</h3>
+<ul>
+<li>распространённые
+<ul>
+<li>UTF-8</li>
+<li>Windows-1251</li>
+<li>Windows-1252</li>
+</ul>
+</li>
+<li>кодировка файла и читающей его программы должна совпадать</li>
+</ul>
+<h2>JavaScript</h2>
+<h3>основы</h3>
+<ul>
+<li>script</li>
+<li>alert
+<ul>
+<li>выводит сообщение</li>
+<li>связан с BOM</li>
+</ul>
+</li>
+<li>document.write
+<ul>
+<li>выводит сообщение в место, где размещён код script</li>
+<li>редко используется</li>
+</ul>
+</li>
+<li>круглые скобки
+<ul>
+<li>запускают функции</li>
+<li>внутрь них передают параметры</li>
+</ul>
+</li>
+<li>кавычки</li>
+<li>точка с запятой</li>
+</ul>
+<h3>загрузка</h3>
+<ul>
+<li>&lt;script src&gt;</li>
+<li>&lt;script src defer&gt;</li>
+<li>&lt;script src async&gt;</li>
+</ul>
+<h2>Где нужен JS?</h2>
+<h3>в браузере</h3>
+<ul>
+<li>примеры
+<ul>
+<li>фотогалереи</li>
+<li>чаты</li>
+<li>загрузка файлов</li>
+<li>игры</li>
+<li>работа с графикой</li>
+<li>проверка введённых данных</li>
+</ul>
+</li>
+<li>компоненты
+<ul>
+<li>ECMA-262</li>
+<li>BOM</li>
+<li>DOM
+<ul>
+<li>интерфейс для работы с HTML/XML-документами</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>сервер</h3>
+<ul>
+<li>NodeJS</li>
+<li>Rhino</li>
+</ul>
+<h3>браузерные дополнения</h3>
+<h3>desktop-приложения</h3>
+<ul>
+<li>Windows</li>
+<li>MacOS</li>
+<li>Linux</li>
+</ul>
+<h3>мобильный сегмент</h3>
+<ul>
+<li>iOS</li>
+<li>Android</li>
+</ul>
+<h3>реальные устройства (IoT, internet of things)</h3>
+<h3>чат-боты</h3>
+<h3>сборка веб-сайта (gulp, webpack)</h3>
+<h2>задания</h2>
+<h3>структура папок на компьютере</h3>
+<h3>возможность посмотреть решения</h3>
+<h3>ссылки на исходный код</h3>
+<h3>возможные решения</h3>
+<h3>ответы</h3>
+<h3>пояснения</h3>
+<h2>принципы обучения</h2>
+<h3>выполнение заданий</h3>
+<ul>
+<li>не откладывать</li>
+<li>по мере встречи с ними</li>
+</ul>
+<h3>систематичность</h3>
+<ul>
+<li>минимум, 15 минут в день</li>
+<li>конспектц</li>
+</ul>
+<h3>последовательность</h3>
+<h3>хорошее настроение</h3>
+<h3>дневник успехов</h3>
+<h2>задачи</h2>
+<h3>познакомить с основами синтаксиса</h3>
+<h3>рассказать, как страницы загружаются в браузере</h3>
+<h3>как JavaScript может повлиять на загрузку страницы</h3>
+<h3>кратко рассказать об истории Javascript</h3>
+<h3>отрасли применения JavaScript</h3>
+<h3>способы загрузки JavaScript-кода</h3>
+
+</div>
+
+</body>
+</html>
